@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.app {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #36b94c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.add-item-form {
+  padding: 10px;
+}
+
+.add-item-form input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-list li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.item-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.item-list li.checked {
+  background-color: #e6ffe6;
+}
+
+.item-list .delete-btn {
+  background-color: #e60000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.item-list .delete-btn:hover {
+  background-color: #ff4d4d;
+}
